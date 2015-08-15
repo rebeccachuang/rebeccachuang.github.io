@@ -15,8 +15,8 @@
 
 
 html{
-	background:url('../img/bg.png') repeat #e4e4e4;
-		
+	background:url('../img/bg.jpg') repeat #e4e4e4;
+	
 	/* This will hide the extra canvas if the screen is small */
 	overflow:hidden;
 }
@@ -83,9 +83,13 @@ h3{
 
 #cursors .cursor{
 	position:absolute;
-	width:15px;
-	height:22px;
-	background:url('../img/pointer.png') no-repeat -4px 0;
+//	width:10px;
+	width:25px;
+//	height:22px;
+	height:28px;
+	background:url('../img/sea-shell-pointer.png');// no-repeat; //-4px 
+
+0;
 }
 
 
@@ -96,10 +100,10 @@ h3{
 
 
 footer{
-	background-color: #111111;
+	background-color: #E0F2F7;
 	bottom: 0;
 	box-shadow: 0 -1px 2px rgba(0,0,0,0.4);
-	height: 45px;
+	height: 20px;
 	left: 0;
 	position: fixed;
 	width: 100%;
@@ -107,7 +111,7 @@ footer{
 }
 
 footer h2{
-	color: #EEEEEE;
+	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: normal;
 	left: 50%;
