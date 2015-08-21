@@ -1,0 +1,7 @@
+Code modified from TutorialZine, Martin Angelov.
+
+touch compatablity needs to be fixed. currently, server does not detect when touch is released, causing lines originating from touch devices to appear to be connected in one giant line on other users' windows.
+
+screen aspect ratio can also be fixed so that all sketches are seen across all device screens no matter the screen ratio.
+or it can just be kept as is like a special easter egg for vertical screen vs horizontal screen users.
+
